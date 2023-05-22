@@ -1,0 +1,10 @@
+/* phan dang ky */
+table.dangky{
+    width: 50%;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+table.dangky tr td{
+    padding: 5px;
+}

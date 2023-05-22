@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* toan bo */
+.wrapper {
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    /* background: #d5c9ff; */
+}
+
+/* phan header */
+.header{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 130px;
+    height: 130px;
+    width: 100%;
+}
+/* phan menu */
+.menu{
+    height: 50px;
+    width: 100%;
+    background: #aab4ff;
+}
+ul.list_menu {
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    margin:0 auto;
+    line-height: 25px;
+}
+ul.list_menu li {
+    float: left;
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_menu li:hover{
+    background: #d3f4d9;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+/* phan main */
+.main{
+    height: auto;
+    width: 100%;
+}
+.sidebar {
+    border: 1px solid #6a00ff;
+    height: 500px;
+    width: 20%;
+    background: #d7f4ff;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 25px;
+}
+ul.list_sidebar li {
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_sidebar li:hover{
+    background: #ffd1ed;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+}
+.maincontent{
+    /* border: 1px solid #4ea8d2; */
+    height: auto;
+    width :77%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: right;
+    /* background: #e8ffff; */
+}
+ ul.list_product {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    word-wrap: break-word;
+}
+ul.list_product li{
+    width: 18%;
+    border: 1px dashed #ffbcbc;
+    margin: 5px;
+    padding: 0;
+    margin-right:10px;
+    float:left;
+    background: #fff0f9;
+    height: 350px;
+}
+ul.list_product li img{
+    width: 80%;
+    padding:5px 10px 0;
+    margin-left: 10px;
+    height: 180px;
+}
+ul.list_product li a{
+    text-decoration: none;
+}
+p.title_product{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+p.price_product{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+p.cate_product{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+/* phan chi tiet sp */
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.hinhanh_sanpham{
+    float:left;
+    width: 30%;
+    height: auto;
+    /* border:1px solid #ddd; */
+}
+.chitiet_sanpham{
+    height: auto;
+    float: left;
+    width: 49%;
+    margin:0 15px;
+}
+.themgiohang{
+    border: none;
+    background: aquamarine;
+    color:brown;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+/* phan footer */
+.footer{
+    height: 120px;
+    width: 100%;
+    background: #b0f0f9;
+}
+.footercode{
+    text-align: center;
+    color: #000;
+}
+.clear{
+    clear:both;
+}
+/*chi tiet bai viet */
+ul.baiviet{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.baiviet li{
+    padding: 10px;
+    border: 1px dashed #2fc1d4;
+}
+/* tintuc */
+ul.list_baiviet {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    word-wrap: break-word;
+}
+ul.list_baiviet li{
+    width: 28%;
+    border: 1px dashed #ffbcbc;
+    margin: 5px;
+    padding: 10px;
+    margin-right:10px;
+    float:left;
+    background: #f8fff0;
+    height: 350px;
+}
+ul.list_baiviet li img{
+    width: 80%;
+    padding:5px 10px 0;
+    margin-left: 10px;
+    height: 180px;
+}
+ul.list_baiviet li a{
+    text-decoration: none;
+}
+/* tab chi tiet san pham */
+.tabs_sp{
+    background: #f4f4f4;
+    padding: 10px;
+}
+.title_ctsp{
+    /* border: 1px dashed #bb2fd4; */
+    margin: 10px;
+    height: auto;
+    background: #ffe1e1;
+    padding: 10px 10px 10px 40px;
+}

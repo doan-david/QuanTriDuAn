@@ -1,0 +1,15 @@
+body{
+    background: #f2f2f2;
+}
+.wrapper_login{
+    width: 20%;
+    margin: 0 auto;
+}
+table.table_login {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.table_login tr td {
+    padding: 5px;
+}
